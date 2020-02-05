@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { getRepoList, getUserInfo } from '../actions/useractions';
+import { getRepoList} from '../actions/useractions';
 import { connect } from 'react-redux';
 import HeaderMenu from './HeaderMenu';
-import SearchBox from './SearchBox';
 import RepoList from './RepoList';
 class Repositery extends Component {
 	constructor(props) {
@@ -34,7 +33,6 @@ class Repositery extends Component {
 
 	handleChange = e => {
 		const { name, value } = e.target;
-		console.log(name, value);
 		this.setState(
 			{
 				[name]: value,

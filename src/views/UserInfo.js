@@ -19,14 +19,14 @@ class UserInfo extends Component{
 						</div>
 						<div className="name_and_username">
 							<h1 className="name">
-								{this.props.userInfoResponse.data.name || "User"}
+								{this.props.userInfoResponse.data.name || 'User'}
 							</h1>
 							<p className="username">
-								{this.props.userInfoResponse.data.login || "User name"}
+								{this.props.userInfoResponse.data.login || 'User name'}
 							</p>
 						</div>
 						<div className="work">
-							{this.props.userInfoResponse.data.bio || "About user"}
+							{this.props.userInfoResponse.data.bio || 'About user'}
 						</div>
 						<div className="editbtn">
 							<button className="btn">Edit bio</button>
@@ -34,26 +34,26 @@ class UserInfo extends Component{
 						<div className="otherinfo">
 							<div className="lastCompany">
 								<span className="icon">
-									<i className="fas fa-user-friends" />
+									<i className="fa fa-user" />
 								</span>
 								<span className="text">
-									{this.props.userInfoResponse.data.company || "No Company"}
+									{this.props.userInfoResponse.data.company || 'No Company'}
 								</span>
 							</div>
 							<div className="location">
 								<span className="icon">
-									<i className="fas fa-map-marker-alt" />
+									<i className="fa fa-map-marker" />
 								</span>
 								<span className="text">
-									{this.props.userInfoResponse.data.location || "Some Country"}
+									{this.props.userInfoResponse.data.location || 'Some Country'}
 								</span>
 							</div>
 							<div className="mail">
 								<span className="icon">
-									<i className="fas fa-envelope" />
+									<i className="fa fa-envelope" />
 								</span>
 								<span className="text">
-									{this.props.userInfoResponse.data.email || "example@mail.com"}
+									{this.props.userInfoResponse.data.email || 'example@mail.com'}
 								</span>
 							</div>
 						</div>
