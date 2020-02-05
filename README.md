@@ -1,5 +1,5 @@
 ## Intro
-A simple responsive github profile repsiteries view
+A simple responsive github profile repositeries view
 
 ## Clone
 git clone https://github.com/imkrish7/VedantuAssignment.git
